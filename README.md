@@ -16,7 +16,7 @@ Please use the date formatting "FullYear-Month-Day" for both the naming of files
 Modifying layouts, includes, etc
 ---
 
-``_includes/`` will contain snippets that are included upon generation of the site itself. This involves the ``<head>``, site header, navigation, and footer (only seen at bottom of individual post page).
+``_includes/`` contains snippets that are included upon generation of the site itself in the layouts. This involves the ``<head>``, site header, navigation, and footer (only seen at bottom of individual post page). Changing these will change them throughout the site.
 
 ``_layouts/`` contains the two primary layouts that build the structure of the site itself. ``default.html`` is the base structure which everything is built off of. ``post.html`` is the structure for individual posts.
 
