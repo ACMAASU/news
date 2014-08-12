@@ -4,7 +4,7 @@ news
 Contributing news content
 ---
 
-Please review [template.md](template.md) for a sample layout and structure of a post. You can use standard Markdown to write your material (which includes HTML as well, see [Daring Fireball's][df] syntax guide for Markdown for more information). There are also some specific Jekyll related formatting and syntax you can use such as highlighting code blocks, read [Jekyll's][jkdoc] for help.
+Please review [template.md](template.md) for a sample layout and structure of a post. You can use standard Markdown to write your material (which includes HTML as well, see [Daring Fireball's][df] syntax guide for Markdown for more information). There are also some specific Jekyll related formatting and syntax you can use such as highlighting code blocks, read [Jekyll's documentation][jkdoc] for help.
 
 The RSS feed is automatically built from the list of posts and added to ``feed.xml``.
 
