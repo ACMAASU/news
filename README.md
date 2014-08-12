@@ -21,3 +21,5 @@ Modifying layouts, includes, etc
 ``_layouts/`` contains the two primary layouts that build the structure of the site itself. ``default.html`` is the base structure which everything is built off of. ``post.html`` is the structure for individual posts.
 
 ``main.css`` is the primary stylesheet for the entire site. ``syntax.css`` is the stylesheet for code blocks (``<pre><code>``).
+
+``_config.yaml`` contains all the important variables for the site itself. Such as where the build destination is, title of the organization and any other global variables (e.g. Facebook page URL, Github, etc). They can be included just like any other variable with Jekyll using ``{{ site.variable_name }}``.
