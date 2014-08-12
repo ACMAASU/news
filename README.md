@@ -12,7 +12,7 @@ Please use the date formatting "FullYear-Month-Day" for both the naming of files
 
 I propose we use two main categories:
 
-1. ``news`` for just website related news content that is excluded from the email campaign.``
+1. ``news`` for just website related news content that is excluded from the email campaign.
 2. ``circuit`` for content that is for both the website and email campaign.
 
 Both will appear on the website, however, when I work in a simple archive or sort-by-category deal, it should be easier to find content that is only related to one of the categories.
