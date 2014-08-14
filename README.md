@@ -4,7 +4,7 @@ news
 Contributing news content
 ---
 
-Please review [template.md](template.md) for a sample layout and structure of a post. You can use standard Markdown to write your material (which includes HTML as well, see [Daring Fireball's][df] syntax guide for Markdown for more information). There are also some specific Jekyll related formatting and syntax you can use such as highlighting code blocks, read [Jekyll's documentation][jkdoc] for help. Jekyll makes use of the Liquid templating language. You only need concern youself with [small amount](liquid) of its documentation.
+Please review [template.md](template.md) for a sample layout and structure of a post. You can use standard Markdown to write your material (which includes HTML as well, see [Daring Fireball's][df] syntax guide for Markdown for more information). There are also some specific Jekyll related formatting and syntax you can use such as highlighting code blocks, read [Jekyll's documentation][jkdoc] for help. Jekyll makes use of the Liquid templating language. You only need concern youself with [small amount](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) of its documentation.
 
 The RSS feed is automatically built from the list of posts and added to ``feed.xml``.
 
@@ -19,7 +19,7 @@ Both will appear on the website, however, when I work in a simple archive or sor
 
 [df]: http://daringfireball.net/projects/markdown/syntax
 [jkdoc]: http://jekyllrb.com/docs/home/
-[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+
 
 Modifying layouts, includes, etc
 ---
