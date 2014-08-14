@@ -14,6 +14,7 @@ destination: /var/www
 
 # Services
 # Fill these in and then use them as variables throughout site. For example: {{ site.facebook }}
-# facebook: 
+facebook: https://www.facebook.com/ASUACM
 # square_store: 
-# email_signup:
+twitter: https://twitter.com/Armstrong_ACM
+email_signup: http://eepurl.com/0Tuiz
