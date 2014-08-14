@@ -1,10 +1,7 @@
 <nav>
 	<ul>
-		<li><a href="{{ site.baseurl }}/about">About</a></li>
-		<li><a href="{{ site.facebook }}">Facebook</a></li>
-		<li><a href="{{ site.twitter }}">Twitter</a></li>
-		<li><a href="{{ site.baseurl }}/soon">Calendar</a></li>
-		<li><a href="{{ site.baseurl }}/soon">Senior Spotlight</a></li>
-		<li><a href="{{ site.email_signup }}">Subscribe via Email</a></li>
+		{% for link in site.data.nav %}
+			<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+		{% endfor %}
 	</ul>
 </nav>

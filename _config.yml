@@ -1,20 +1,10 @@
 # Site settings
 title: Armstrong ACM
 email: armstrong.acm@gmail.com
-# description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 baseurl: ""
 url: "http://acmarmstrong.org"
-# twitter_username: jekyllrb
-# github_username: ACMAASU
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 destination: /var/www
-
-# Services
-# Fill these in and then use them as variables throughout site. For example: {{ site.facebook }}
-facebook: https://www.facebook.com/ASUACM
-# square_store: 
-twitter: https://twitter.com/Armstrong_ACM
-email_signup: http://eepurl.com/0Tuiz
