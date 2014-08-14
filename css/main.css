@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
 
-/* Some items may be vestigial and unnecessary, if you remove them, please specify in commit your changes */
+/* Some items may be vestigial and unnecessary, if you remove them, please specify in the commit message */
 
 body {
 	font: 13px/2em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
