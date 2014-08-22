@@ -1,7 +1,7 @@
 news
 ====
 
-# Contributing news content
+## Contributing news content
 
 Please review [template.md](template.md) for a sample layout and structure of a post. You can use standard Markdown to write your material (which includes HTML as well, see [Daring Fireball's][df] syntax guide for Markdown for more information).
 
@@ -14,7 +14,7 @@ Please use the date formatting "FullYear-Month-Day" for both the naming of files
 [df]: http://daringfireball.net/projects/markdown/syntax
 [jkdoc]: http://jekyllrb.com/docs/home/
 
-# Modifying layouts, includes, etc
+## Modifying layouts, includes, etc
 
 * ``_includes/`` contains snippets that are included upon generation of the site itself in the layouts. This involves the ``<head>``, site header, navigation, and footer (only seen at bottom of individual post page). Changing these will change them throughout the site.
 * ``_layouts/`` contains the two primary layouts that build the structure of the site itself. ``default.html`` is the base structure which everything is built off of. ``post.html`` is the structure for individual posts.
