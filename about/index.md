@@ -18,7 +18,10 @@ personal website and more.
 {% for officer in site.data.officers %}
 	<li>{{ officer.name }} as {{ officer.position }}.
 	{% if officer.site %}
-		They have a personal website located here: <a href="{{ officer.site }}">{{ officer.site | truncate: 32 }}</a>.
+		{% comment %}
+			These filters remove the implied http/https and 'www.' from the URL. Then split it on the first slash, meaning it only retrieves the domain.
+		{% endcomment %}
+		Personal website: <a href="{{ officer.site }}">{{ officer.site | remove:'https://' | remove:'http://' | remove_first:'www.' | split:'/' | first }}</a>.
 	{% endif %}
 	</li>
 {% endfor %}
